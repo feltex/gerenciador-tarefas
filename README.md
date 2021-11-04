@@ -10,3 +10,6 @@
     - Deletar
     - Concluir 
 - Usando o LocalStorage
+
+
+Assista o vídeo como o passo a passo para construir este projeto https://youtu.be/lWrjC83G7yI
