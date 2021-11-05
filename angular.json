@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "gerencidor-tarefas": {
+    "gerenciador-tarefas": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/gerencidor-tarefas",
+            "outputPath": "dist/gerenciador-tarefas",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gerencidor-tarefas:build:production"
+              "browserTarget": "gerenciador-tarefas:build:production"
             },
             "development": {
-              "browserTarget": "gerencidor-tarefas:build:development"
+              "browserTarget": "gerenciador-tarefas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gerencidor-tarefas:build"
+            "browserTarget": "gerenciador-tarefas:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "gerencidor-tarefas"
+  "defaultProject": "gerenciador-tarefas"
 }
