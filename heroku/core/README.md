@@ -28,5 +28,7 @@ Comando:  ```npm -v``` saída algo como ```8.1.2```
 Comando:  ```node -v``` saída: ```v14.18.1```
 
 
+Adicione esta linha ao arquivo package.json
+
       “engines”: { “node”: “14.18.1”, “npm”: “8.1.2” }
 
