@@ -2,7 +2,7 @@
 
 ## Testar a aplicação
 
-    eb init -p docker gerenciador-tarefas
+    eb init gerenciador-tarefas
 
 ## Iniciar a aplicação
 

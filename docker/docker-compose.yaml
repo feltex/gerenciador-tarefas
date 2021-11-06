@@ -5,4 +5,4 @@ services:
     image: andrefelix/gerenciador-tarefas:v1
     container_name: gerenciador-tarefas
     ports:
-      - 8099:80
+      - "8099:80"
