@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion":"1",
+    "Image":{
+        "Name":"andrefelix/gerenciador-tarefas:v1",
+        "Update": "true"
+    },
+
+    "Ports":[
+        {
+            "ContainerPort": 80,
+            "HostPort":5000
+        }
+    ]
+}
