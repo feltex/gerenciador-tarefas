@@ -1,7 +1,7 @@
 # GerencidorTarefas
 
 - Criar o Projeto em Angular
-- Criar  um componente
+- Criar um componente
 - Explicando os arquivos html, css, spec e ts
 - Listando as tarefas
 - Configurando o CSS
