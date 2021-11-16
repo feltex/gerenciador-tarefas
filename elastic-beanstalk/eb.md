@@ -20,6 +20,10 @@
 
     eb open
 
+## Atualizar a aplicação na AWS
+
+    eb deploy
+
 
 ## Remover recursos
 
