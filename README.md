@@ -12,7 +12,12 @@
 - Usando o LocalStorage
 
 
-Assista o vídeo como o passo a passo para construir este projeto https://youtu.be/lWrjC83G7yI
+Assista o vídeo como o passo a passo para construir este projeto 
+
+- Como instalar o Angular https://youtu.be/G9mzNoqJJgw
+- Criando um Gerenciador de Tarefas https://youtu.be/lWrjC83G7yI
+- Aplicação no Docker https://youtu.be/m34C6Hz0qF4
+- Deploy na AWS https://youtu.be/KdOAX3pd9jE
 
 # Configuração do Docker
 
