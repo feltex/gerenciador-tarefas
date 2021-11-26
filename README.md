@@ -18,6 +18,7 @@ Assista o vídeo como o passo a passo para construir este projeto
 - Criando um Gerenciador de Tarefas https://youtu.be/lWrjC83G7yI
 - Aplicação no Docker https://youtu.be/m34C6Hz0qF4
 - Deploy na AWS https://youtu.be/KdOAX3pd9jE
+- Deploy na plataforma Heroku - https://youtu.be/bCS1hNdjiWY
 
 # Configuração do Docker
 
