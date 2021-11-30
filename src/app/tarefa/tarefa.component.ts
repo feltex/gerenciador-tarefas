@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Tarefa} from "../modelo/tarefa";
+import {TarefaService} from "../service/tarefa.service";
 
 @Component({
   selector: 'app-tarefa',
@@ -7,46 +9,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarefaComponent implements OnInit {
 
-  TAREFA_KEY = 'tarefa_key'
-  listaTarefas : any[] = []
-  constructor() { }
+  listaTarefas : Tarefa[] = []
+  constructor(private tarefaService: TarefaService) { }
 
   ngOnInit(): void {
-     const tarefas = localStorage.getItem(this.TAREFA_KEY)
-    if (tarefas){
-      this.listaTarefas = JSON.parse(tarefas)
-    }
+     this.tarefaService.listar().subscribe((tarefas) =>
+       this.listaTarefas = tarefas)
   }
 
   adicionar(nomeTarefa: string) {
     if (nomeTarefa.trim().length == 0){
       return;
     }
-    const tarefaEncontrada = this.listaTarefas.find(item => item.nome.toLowerCase() == nomeTarefa.toLowerCase())
 
-    if (!tarefaEncontrada){
-      this.listaTarefas.push({id: this.listaTarefas.length, nome: nomeTarefa, concluida: false})
-      this.salvarLista()
-    }
+     if(!this.nomeExiste(nomeTarefa)){
+       this.tarefaService.adicionar(nomeTarefa);
+     }
   }
 
   deletar(id: number) {
-    this.listaTarefas = this.listaTarefas.filter(item => (item.id != id))
-    this.salvarLista()
+    this.tarefaService.deletar(id);
   }
 
   completar(id: number) {
-    const tarefaEncontrada = this.listaTarefas.find( item => item.id == id)
-
-    if (tarefaEncontrada){
-      tarefaEncontrada.concluida = !tarefaEncontrada.concluida
-      this.salvarLista()
-    }
-
+   this.tarefaService.completar(id);
   }
-
-  private salvarLista(){
-    localStorage.setItem(this.TAREFA_KEY, JSON.stringify(this.listaTarefas))
+  private nomeExiste(nomeTarefa: string) {
+    const tarefaEncontrada = this.listaTarefas.filter(t => t.nome.toLowerCase() === nomeTarefa.toLowerCase())
+    return (tarefaEncontrada.length > 0);
   }
-
 }
