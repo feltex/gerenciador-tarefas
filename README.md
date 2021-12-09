@@ -19,6 +19,7 @@ Assista o vídeo como o passo a passo para construir este projeto
 - Aplicação no Docker https://youtu.be/m34C6Hz0qF4
 - Deploy na AWS https://youtu.be/KdOAX3pd9jE
 - Deploy na plataforma Heroku - https://youtu.be/bCS1hNdjiWY
+- Usando uma API Java e Springboot - https://youtu.be/svv5MlMjupY
 
 # Configuração do Docker
 
