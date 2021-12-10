@@ -1,5 +1,4 @@
 # Gerencidor de Tarefas
-
 - Criar o Projeto em Angular
 - Criar um componente
 - Explicando os arquivos html, css, spec e ts
@@ -20,6 +19,12 @@ Assista o vídeo como o passo a passo para construir este projeto
 - Deploy na AWS https://youtu.be/KdOAX3pd9jE
 - Deploy na plataforma Heroku - https://youtu.be/bCS1hNdjiWY
 - Usando uma API Java e Springboot - https://youtu.be/svv5MlMjupY
+
+
+# Veja imagem do Sistema
+![Gerenciador de Taredas](https://github.com/feltex/gerenciador-tarefas/blob/main/gerenciador-tarefas.png)
+
+
 
 # Configuração do Docker
 
