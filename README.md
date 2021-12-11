@@ -21,6 +21,9 @@ Assista o vídeo como o passo a passo para construir este projeto
 - Usando uma API Java e Springboot - https://youtu.be/svv5MlMjupY
 
 
+- Deploy da aplicação na Azure - https://youtu.be/trOfCPgk5zA
+
+
 # Veja imagem do Sistema
 ![Gerenciador de Taredas](https://github.com/feltex/gerenciador-tarefas/blob/main/gerenciador-tarefas.png)
 
